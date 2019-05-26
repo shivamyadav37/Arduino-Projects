@@ -1,4 +1,6 @@
+//This is an Arduino Based Game Using LCD Module and Push Buttons. 
 
+//It's Almost Similar to Google Chrome's Dinosaur Game.
 *************************************************
 #include <LiquidCrystal.h>
 
@@ -307,4 +309,4 @@ void loop(){
     digitalWrite(PIN_AUTOPLAY, terrainLower[HERO_HORIZONTAL_POSITION + 2] == SPRITE_TERRAIN_EMPTY ? HIGH : LOW);
   }
   delay(100);
-}﻿ 
+}

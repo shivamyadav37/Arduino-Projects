@@ -1,6 +1,6 @@
 //This is an Arduino Based Game Using LCD Module and Push Buttons. 
 
-//It's Almost Similar to Google Chrome's Dinosaur Game.
+//It's Almost Similar to Google Chrome's Dinosaur Game
 *************************************************
 #include <LiquidCrystal.h>
 

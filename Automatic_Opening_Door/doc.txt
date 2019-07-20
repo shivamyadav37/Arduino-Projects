@@ -1,0 +1,7 @@
+You can use this code for Automatic Opening of Any door/gate by installing motor and using motor driving board.
+Requirements-->
+1.PIR Sensor
+2.Motor Driving board
+3.Wires
+4.Arduino(Any Type)
+5.Arduino IDE(For compiling purpose)

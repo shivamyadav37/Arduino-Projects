@@ -1,7 +1,7 @@
 
 
-nt in1 = 2;
-int in2 = 3;
+int in1 = 5;
+int in2 = 6;
 int sensor = 8;
 int led = 13;
 
@@ -14,15 +14,15 @@ void setup()
   
   digitalWrite(in1,LOW);
   digitalWrite(in2,LOW);
-  //digitalWrite(sensor,LOW);
+
   digitalWrite(led,LOW);
 
-  while(millis()<13000)
+  while(millis()<15000)
   {
     digitalWrite(led,HIGH);
-    delay(50);
+    delay(25);
     digitalWrite(led,LOW);
-    delay(50);
+    delay(25);
   }
   digitalWrite(led,LOW);
   digitalWrite(in1,LOW);
@@ -37,14 +37,14 @@ void loop()
    digitalWrite(in1,HIGH);
    digitalWrite(in2,LOW);
    digitalWrite(led,HIGH);
-   delay(2000);
+   delay(4000);
    digitalWrite(in1,LOW);
    digitalWrite(in2,LOW);
    
    digitalWrite(in1,LOW);
    digitalWrite(in2,HIGH);
    digitalWrite(led,LOW);
-   delay(2000);
+   delay(4000);
    digitalWrite(in1,LOW);
    digitalWrite(in2,LOW);
    
